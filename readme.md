@@ -9,7 +9,7 @@ This readme file contains my notes and findings which are taken from various sou
 
 | S.no | Title | Quick notes | 
 | ------------- |:-------------:| -----:|
-| 1 |  [hello_world](../hello_world/) | This repository contains some basic codes like hellow world program, |  
+| 1 |  [hello_world](hello_world/) | This repository contains some basic codes like hellow world program, |  
 
  
 :grinning:

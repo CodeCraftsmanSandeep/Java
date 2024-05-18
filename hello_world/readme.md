@@ -4,7 +4,7 @@ Current JDK (Java Development Toolkit) can be known by running
 java --version
 ```
   
-My version:  
+JDK version I am using:
 ```
 openjdk 19.0.2 2023-01-17
 OpenJDK Runtime Environment (build 19.0.2+7-Ubuntu-0ubuntu322.04)

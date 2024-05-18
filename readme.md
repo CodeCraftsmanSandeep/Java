@@ -16,5 +16,5 @@ This readme file contains my notes and findings which are taken from various sou
 
 
 ## Resources
-
-https://docs.oracle.com/javase/tutorial/
+- [freeCodeCamp.org java course](https://www.youtube.com/watch?v=A74TOX803D0)
+- https://docs.oracle.com/javase/tutorial/

@@ -1,6 +1,5 @@
 # My learnings of java
-Hi! 🙋	:raising_hand: welcome to my repository.  
-
+Hey there! 🙋 welcome to my repository!  
 This repository includes the code and notes I have compiled throughout my Java learning process.
 This readme file contains my notes and findings which are taken from various sources and personal experimentation during my journey of learning Java.
 

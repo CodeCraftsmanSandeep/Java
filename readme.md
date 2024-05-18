@@ -6,7 +6,7 @@ This repository contains codes and notes which I have written while learning (:f
 
 
 | S.no | Title | Quick notes | 
-| ----------- | ----------- |
+| ------------- |:-------------:| -----:|
 | 1 |  [hello_world](!hello_world) | This repository contains some basic codes like hellow world program, |  
 
  

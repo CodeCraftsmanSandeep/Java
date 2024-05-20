@@ -10,7 +10,7 @@
   * Using printf() (same as in c++)
   * nextInt() to get integer input
   * nextDouble(), nextFloat()
-  * Do not forget to clean the buffer whenever needed.
+  * Do not forget to clean the buffer whenever needed.  <br/>
 Output:  
 ![output1](output1.png)  
 

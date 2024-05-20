@@ -31,5 +31,5 @@
 
 ## Learnings from [code4](code4.java)
 
-* In order to not over populate learnings from a code, I have created this new section in continuation to the [previous section](## Learnings from [code3](code3.java))
+* In order to not over populate learnings from a code, I have created this new section in continuation to the [previous section](#Learnings-from-code3)
 * 

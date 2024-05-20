@@ -10,8 +10,8 @@
   * Using printf() (same as in c++)
   * nextInt() to get integer input
   * nextDouble(), nextFloat()
-  * Do not forget to clean the buffer whenever needed.  <br/>
-Output:  
-![output1](output1.png)  
+  * Do not forget to clean the buffer whenever needed.
+  * Output: <br/> ![output1](output1.png)  
+  * 
 
 ## Learning in [code2](code2.java)

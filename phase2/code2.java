@@ -32,11 +32,19 @@ class code2{
                 break;
 
             case '/':
+                if(operand2 == 0){
+                    System.out.println("Cannot divide by zero");
+                    return;
+                }
                 output = operand1 / operand2;
                 System.out.printf("%f / %f = %f\n", operand1, operand2, output);
                 break;
 
             case '%':
+                if(operand2 == 0){
+                    System.out.println("Cannot divide by zero");
+                    return;
+                }
                 output = operand1 % operand2;
                 System.out.printf("%f % %f = %f\n", operand1, operand2, output);
                 break;

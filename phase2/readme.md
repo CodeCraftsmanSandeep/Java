@@ -1,4 +1,4 @@
-# Phase 2 learning
+# Java Learning Journey: Phase 2 📈
 
 ## Learnings from [code1](code1.java)
 * Taking input from the user.

@@ -1,9 +1,10 @@
-# Phase 1 of learning
+# Java Learning Journey: Phase 1 📈
+
 ## Datatypes
 - Primitive data types (eg: int, float .. )
 - Non-primitive data types (eg: string, arrays ..)
 
-## Variable declarations
+## Variable declarations 
 Alphabet set for variables = {$, _, 0, .., 9, A, B, .., Z, a, b, ...., z}
 Note that java allows $  
 

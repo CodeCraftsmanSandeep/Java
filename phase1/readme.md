@@ -1,3 +1,4 @@
+# Phase 1 of learning
 ## Datatypes
 - Primitive data types (eg: int, float .. )
 - Non-primitive data types (eg: string, arrays ..)
@@ -44,5 +45,4 @@ See [code2](code2.java) which is a good example to understand the above differen
 ## Important points
 * Java does not allow to use unitialized variable  (see [code1](code1.java))
 * Java is not strictly typed. (for example: int/double is allowed in Java)
-* 
 

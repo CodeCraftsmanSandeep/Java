@@ -34,13 +34,13 @@
 * In order to not over populate learnings from a code, I have created this new section in continuation to the [previous section](#Learnings-from-code3)
 * ```fill()``` method can be used to fill the entire array with some value (or) filling some value in some specific range.
 * int arr2[] = arr1; This line does not create a new copy of the array elements. Instead, it assigns the reference of arr1 to arr2
-* ```copyOf(array, length)``` method can be used to create **actaul** copies of an array.
+* ```copyOf(array, length)``` method can be used to create **actual** copies of an array.
 * Similarly, ```copyOfRange(arr, startingIndex, endingIndex)``` can be used to copy elements of an array in some range.
 * ```equals(arr1, arr2)``` of Arrays in java checks whether the contents of two arrays arr1, arr2 are same (or) not.
 
 ## Learnings from [code5](code5.java)
 
 * Though I used loops in previous section (since I know other programming languages while I was learning java :) ), this section is dedicated to 3 kinds of loops
-* **for loop **.
-* ** while loop**
-* ** do while loop**
+* **for loop**.
+* **while loop**
+* **do while loop**

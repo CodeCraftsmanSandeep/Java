@@ -29,7 +29,16 @@ See [code2](code2.java) which is a good example to understand the above differen
 ## Learning strings
 - See [code4](code4.java) to know the ways to declare a string.
 - See [code5](code5.java) to know what's the major difference between the above ways of declaring.
-- 
+- See [code6](code6.java) to know the following methods of string:  
+  - format()
+  - length()
+  - isEmpty()
+  - toUpperCase()
+  - toLowerCase()
+  - equals()
+  - equalsIgnoreCase()
+  - replace()
+  - contains()
 
 
 ## Important points

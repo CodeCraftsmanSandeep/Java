@@ -11,5 +11,7 @@ public class code5 {
 
         System.out.println(objectString1 == objectString2);     // output : false
         // not reusing the same value from the pool
+        // even the value of objects objectString1, objectString2 are same, they are different objects
+        
     }
 }

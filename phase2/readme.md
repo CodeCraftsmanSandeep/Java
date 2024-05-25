@@ -41,6 +41,7 @@
 ## Learnings from [code5](code5.java)
 
 * Though I used loops in previous section (since I know other programming languages while I was learning java :) ), this section is dedicated to 3 kinds of loops
-* **for loop**.
-* **while loop**
-* **do while loop**
+  * **for loop**.
+  * **while loop**
+  * **do while loop**
+* There is another type of accessing elements in a container, which is discussed in [phase3/code2](../phase3/code2.java)

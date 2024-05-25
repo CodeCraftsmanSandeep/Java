@@ -12,11 +12,14 @@
 
 ## Learnings from [code1](code1.java)
 - Learning ArrayList in java.util.ArrayList
-- ```java ArrayList <Integer> arr = new ArrayList <Integer> ();```
+- ```ArrayList <Integer> arr = new ArrayList <Integer> ();```
 - Methods learned in ArrayList in [code1](code1.java)
-  - **.add(x)** ```Adding element x at end of the ArrayList```
-  - **.get(i)** ```Accessing element at index i from the ArrayList ```
-  - **.remove(i)** ```Removing element at index i from the ArrayList ```
-  - **.remove(Integer.valueOf(x))** ```Removes first occurence of element x in ArrayList if exists```
-  - **.
-- 
+  - ```.add(x)``` Adding element x at end of the ArrayList
+  - ```.get(i) ```Accessing element at index i from the ArrayList
+  - ```.remove(i) ```Removing element at index i from the ArrayList
+  - ```.remove(Integer.valueOf(x)) ```Removes first occurence of element x in ArrayList if exists
+  - ```.clear()``` removes all elements in ArrayList
+  - ```.set(i, Integer.valusOf(x))```  sets element at ith index equal to x
+  - Sorting (make sure to import java.util.Comparator)
+    - ```.sort(Comparator.naturalOrder()) ``` sorts elements of the ArrayList in ascending order
+    - ``` .sort(Comparator.reverseOrder()) ``` sorts elements of the ArrayList in descending order

@@ -13,7 +13,7 @@ public class code1 {
         System.out.println(numbers.toString());
         System.out.println();
 
-        System.out.println("Removing element by index");
+        System.out.println("Accessing element by index");
         System.out.println(numbers.get(3));
 
         System.out.println();
@@ -23,14 +23,14 @@ public class code1 {
 
         System.out.println();
         System.out.println("Removing element by value");
-        numbers.remove(Integer.valueOf(100)); // removing element 100
+        numbers.remove(Integer.valueOf(-100)); // removing first occurence of element 100
         System.out.println(numbers);
 
         System.out.println();
-        System.out.println("After using .clear() method:");
         numbers.clear(); // removing all elements in arraylist
+        System.out.println("After using .clear() method:");
         System.out.println(numbers);
-
+        
         // updating array list
         ArrayList <Double> arr = new ArrayList <Double> ();
         arr.add(10000.0);
@@ -56,7 +56,5 @@ public class code1 {
         System.out.println("After sorting in descending order:");
         arr.sort(Comparator.reverseOrder());
         System.out.println(arr);
-
-        
     }
 }

@@ -9,4 +9,14 @@
   |Memory Efficiency	| More efficient (stores raw integer value)	| Less efficient (some overhead for object  structure) |
   |Functionalities	| Limited (no methods)	| Provides methods for conversion, comparison, etc.|
   | Usage	| Simple integer storage	| Object-oriented features, conversions, etc. |
-* 
+
+## Learnings from [code1](code1.java)
+- Learning ArrayList in java.util.ArrayList
+- ```java ArrayList <Integer> arr = new ArrayList <Integer> ();```
+- Methods learned in ArrayList in [code1](code1.java)
+  - **.add(x)** ```Adding element x at end of the ArrayList```
+  - **.get(i)** ```Accessing element at index i from the ArrayList ```
+  - **.remove(i)** ```Removing element at index i from the ArrayList ```
+  - **.remove(Integer.valueOf(x))** ```Removes first occurence of element x in ArrayList if exists```
+  - **.
+- 

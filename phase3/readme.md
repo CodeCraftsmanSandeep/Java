@@ -31,3 +31,18 @@
   - looping through the elements in the ArrayList <br/> ``` arr.forEach(ele ->{
   //  can access element using ele
   }); ```
+
+## Learnings from [code3](code3.java)
+
+* [code3](code3.java) talks about hash maps in java. Make sure to ``` import java.util.HashMap ``` before using ```HashMap```
+* Example of creating HashMap ```HashMap <String, Integer> score = new HashMap <String, Integer> (); ```
+* Methods of ```HashMap``` learned in [code3](code3.java)
+  * ```.put(key, value)``` inserts pair {key, value} into the HashMap if key is not already present in the HashMap, else rewrites the existing value in the HashMap. (Note: there is no error!! if key is already present)
+  * ```.toString()```, ```.clear()```, ```.isEmpty()``` and ```.size()``` works for HashMap similar to ArrayList
+  * ``` .get(x) ``` retuns value if x is one of the keys in HashMap, else returns false
+  * ``` .putIfAbsent(key, value) ``` inserts the {key, value} pair into the HashMap if the key is not already present in HashMap. Useful method!!
+  * ``` .replace(key, value) ``` replaces the existsing value of the key in the HashMap if key is present in the HashMap, else ignores!!
+  * ```.getOrDefault(key, x)``` returns the value of the key in HashMap if the key is present in the HashMap, else returns x
+  * ``` .remove(key) ``` removes the item correspoding to the key in the HashMap if exists, else ignores!!
+  * ``` .containsValue(x) ``` returns true if x is a value in one of the items in the HashMap
+  * Looping through the HashMap<br/> example code: <br/> ```.forEach((key, value) -> { // can access key value pair }); ```

@@ -12,7 +12,7 @@
 
 ## Learnings from [code1](code1.java)
 - Learning ArrayList in java.util.ArrayList
-- ```ArrayList <Integer> arr = new ArrayList <Integer> ();```
+- Example of creating an ArrayList in java ```ArrayList <Integer> arr = new ArrayList <Integer> ();```
 - Methods learned in ArrayList in [code1](code1.java)
   - ```.add(x)``` Adding element x at end of the ArrayList
   - ```.get(i) ```Accessing element at index i from the ArrayList
@@ -23,3 +23,11 @@
   - Sorting (make sure to import java.util.Comparator)
     - ```.sort(Comparator.naturalOrder()) ``` sorts elements of the ArrayList in ascending order
     - ``` .sort(Comparator.reverseOrder()) ``` sorts elements of the ArrayList in descending order
+
+## Learnings from [code2](code2.java)
+- Methods learned in ArrayList in [code2](code2.java)
+  - ``` .contains(Integer.valueOf(x)) ``` returns __true__ if x is present in the ArrayList, else returns __false__
+  - ``` .isEmpty() ``` returns __true__ if the ArrayList is empty, else returns __false__
+  - looping through the elements in the ArrayList <br/> ``` arr.forEach(ele ->{
+  //  can access element by **ele**
+  });

@@ -7,8 +7,12 @@ This readme file contains my notes and findings which are taken from various sou
 
 
 | S.no | Title | Quick notes | 
-| ------------- |:-------------:| -----:|
-| 1 |  [hello_world](hello_world/) | This repository documents my journey of starting Java, including learning and writing hello world codes |
+| ------------- |:-------------:| ----:|
+| 0 |  [hello_world](hello_world/) | This repository documents my journey of starting Java, including learning and writing hello world codes |
+| 1 |  [phase1](phase1/) | [phase1](phase1/) talks about programming fundamentals in java |
+| 2 |  [phase2](phase2/) | [phase2](phase2/) talks about if-else, switch-case statements, one-dimensional arrays, few methods, loops in java|
+| 3 |  [phase3](phase3/) | [phase3](phase3/) talks about dynamic arrays in java(ArrayList) and HashMap and corresponding methods |
+| 4 |  [phase4](phase4/) | [phase4](phase4/) talks about OOPS (Object-Oriented-Programming-System) |
 
 ## Notes
 

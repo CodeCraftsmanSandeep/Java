@@ -29,5 +29,5 @@
   - ``` .contains(Integer.valueOf(x)) ``` returns __true__ if x is present in the ArrayList, else returns __false__
   - ``` .isEmpty() ``` returns __true__ if the ArrayList is empty, else returns __false__
   - looping through the elements in the ArrayList <br/> ``` arr.forEach(ele ->{
-  //  can access element by **ele**
+  //  can access element using ele
   }); ```

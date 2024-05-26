@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 import java.time.LocalDate;
 import java.time.Period;
 public class User {
     public String name;
     public LocalDate birthDate;
+    public ArrayList <Book> books = new ArrayList <Book> ();
 
     // constructor
     public User(){
@@ -21,7 +23,8 @@ public class User {
         return lived_time.getYears();
     }
 
-    public borrow(Book book){
-            
+    public void borrow(Book book){
+        this.books.add(book);
     }
+
 }

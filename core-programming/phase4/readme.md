@@ -19,3 +19,6 @@ We can make data attributes private and create methods to get data of the object
 
 ## Learnings from [example3](example3/)
 In [example3](example3/) I learned how to implement inheritence in Java.  
+In [example3](example3/), AudioBook and Ebook are two classes that inherit data attributes and methods from Book class.  
+
+

@@ -24,75 +24,58 @@
     - Use Case: REST is generally preferred for web APIs and services where simplicity, performance, and scalability are important. SOAP is preferred for enterprise-level applications that require a high level of security and transactional reliability.
 
 - ### HTTP Protocol
-
-**HTTP (HyperText Transfer Protocol)** is the foundational protocol used for transmitting data on the World Wide Web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands.
-
-#### Key Characteristics of HTTP
-
-1. **Stateless Protocol**: Each HTTP request from a client to server is independent, meaning that the server does not retain any state or information about previous requests. This makes HTTP simple but also means that each request must contain all necessary information.
-
-2. **Request-Response Model**: HTTP operates based on a request-response model. The client (typically a web browser) sends a request to the server, which processes it and sends back a response.
-
-3. **Methods (Verbs)**: HTTP defines a set of request methods that indicate the desired action to be performed for a given resource:
-   - **GET**: Retrieve data from the server. This method should not alter the state of the server.
-   - **POST**: Send data to the server to create a new resource.
-   - **PUT**: Send data to the server to update an existing resource.
-   - **DELETE**: Remove a resource from the server.
-   - **HEAD**: Similar to GET, but it retrieves only the headers without the body.
-   - **OPTIONS**: Describe the communication options for the target resource.
-   - **PATCH**: Apply partial modifications to a resource.
-
-4. **URLs (Uniform Resource Locators)**: HTTP uses URLs to identify resources. A URL specifies the location of a resource on the web and can include the protocol, domain, path, and query parameters.
-
-5. **Headers**: Both HTTP requests and responses use headers to convey metadata. Headers provide additional information such as content type, content length, authentication credentials, and more.
-
-6. **Status Codes**: HTTP responses include status codes to indicate the outcome of the request. Common status codes include:
-   - **200 OK**: The request was successful.
-   - **201 Created**: The request was successful and a new resource was created.
-   - **400 Bad Request**: The server could not understand the request due to invalid syntax.
-   - **401 Unauthorized**: Authentication is required and has failed or not been provided.
-   - **404 Not Found**: The requested resource could not be found.
-   - **500 Internal Server Error**: The server encountered an unexpected condition.
-
-#### HTTP/1.1 vs. HTTP/2 vs. HTTP/3
-
-- **HTTP/1.1**: The most widely used version for many years, introducing persistent connections and chunked transfer encoding.
-- **HTTP/2**: Introduced multiplexing (allowing multiple requests and responses to be sent simultaneously over a single connection), header compression, and server push capabilities for better performance.
-- **HTTP/3**: The latest version, which uses QUIC (a transport protocol based on UDP) for improved performance and security, reducing latency and connection setup times.
-
-#### Security: HTTPS
-
-- **HTTPS (HyperText Transfer Protocol Secure)**: An extension of HTTP that uses SSL/TLS to encrypt data between the client and server, ensuring secure communication.
-
-#### Example of an HTTP Request and Response
-
-- **Request:**
-  ```plaintext
-  GET /index.html HTTP/1.1
-  Host: www.example.com
-  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
-  Accept-Language: en-US,en;q=0.9
-  ```
-
-- **Response:**
-  ```plaintext
-  HTTP/1.1 200 OK
-  Content-Type: text/html; charset=UTF-8
-  Content-Length: 138
-  Connection: keep-alive
-  
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <title>Example</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
-  </html>
-  ```
-
-Understanding the HTTP protocol is essential for web development, as it underpins the communication between web browsers and servers, enabling the exchange of web pages, APIs, and other resources.
+  - **HTTP (HyperText Transfer Protocol)** is the foundational protocol used for transmitting data on the World Wide Web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands.
+  - #### Key Characteristics of HTTP
+    1. **Stateless Protocol**: Each HTTP request from a client to server is independent, meaning that the server does not retain any state or information about previous requests. This makes HTTP simple but also means that each request must contain all necessary information.
+    2. **Request-Response Model**: HTTP operates based on a request-response model. The client (typically a web browser) sends a request to the server, which processes it and sends back a response.
+    3. **Methods (Verbs)**: HTTP defines a set of request methods that indicate the desired action to be performed for a given resource:
+       - **GET**: Retrieve data from the server. This method should not alter the state of the server
+       - **POST**: Send data to the server to create a new resource.
+       - **PUT**: Send data to the server to update an existing resource.
+       - **DELETE**: Remove a resource from the server.
+       - **HEAD**: Similar to GET, but it retrieves only the headers without the body.
+       - **OPTIONS**: Describe the communication options for the target resource.
+       - **PATCH**: Apply partial modifications to a resource.
+    4. **URLs (Uniform Resource Locators)**: HTTP uses URLs to identify resources. A URL specifies the location of a resource on the web and can include the protocol, domain, path, and query parameters.
+    5. **Headers**: Both HTTP requests and responses use headers to convey metadata. Headers provide additional information such as content type, content length, authentication credentials, and more.
+    6. **Status Codes**: HTTP responses include status codes to indicate the outcome of the request. Common status codes include:
+       - **200 OK**: The request was successful.
+       - **201 Created**: The request was successful and a new resource was created.
+       - **400 Bad Request**: The server could not understand the request due to invalid syntax.
+       - **401 Unauthorized**: Authentication is required and has failed or not been provided.
+       - **404 Not Found**: The requested resource could not be found.
+       - **500 Internal Server Error**: The server encountered an unexpected condition.
+  - #### HTTP/1.1 vs. HTTP/2 vs. HTTP/3
+    - **HTTP/1.1**: The most widely used version for many years, introducing persistent connections and chunked transfer encoding.
+    - **HTTP/2**: Introduced multiplexing (allowing multiple requests and responses to be sent simultaneously over a single connection), header compression, and server push capabilities for better performance.
+    - **HTTP/3**: The latest version, which uses QUIC (a transport protocol based on UDP) for improved performance and security, reducing latency and connection setup times.
+  - #### Security: HTTPS
+    - **HTTPS (HyperText Transfer Protocol Secure)**: An extension of HTTP that uses SSL/TLS to encrypt data between the client and server, ensuring secure communication.
+    - #### Example of an HTTP Request and Response
+    - **Request:**
+        ```plaintext
+        GET /index.html HTTP/1.1
+        Host: www.example.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+        Accept-Language: en-US,en;q=0.9
+        ```
+    - **Response:**
+        ```plaintext
+        HTTP/1.1 200 OK
+        Content-Type: text/html; charset=UTF-8
+        Content-Length: 138
+        Connection: keep-alive
+        
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Example</title>
+        </head>
+        <body>
+          <h1>Hello, world!</h1>
+        </body>
+        </html>
+        ```
 
 # Key words
 - Spring initilizer : https://start.spring.io/
